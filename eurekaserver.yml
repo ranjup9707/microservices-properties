@@ -5,7 +5,9 @@ eureka:
   instance:
     hostname: localhost
   client:
-    #By default, the value is TRUE. This has been set to false as we do not require Eureka Server to fetch the registry detail of other #microservices. Eureka Server is not going to call any microservices.
+    #By default, the value is TRUE. This has been set to false as we do not require 
+    #Eureka Server to fetch the registry detail of other microservices. 
+    #Eureka Server is not going to call any microservices.
     fetchRegistry: false
     #This is set to FALSE. We are saying to Eureka Server to not register with yourself. 
     registerWithEureka: false
